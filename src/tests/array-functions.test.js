@@ -43,15 +43,20 @@ describe("sort", () => {
 });
 
 //filter should return an array with names of length 3
+describe("filter", () => {
+  it("should return an array with names of length of 3", () => {
+    expect(filter(names, findThree))
+  })
+})
+
+
 //["Jon","Bob","Ted","Axe"]
 
 //find should find one name of "Barney"
 
-//findLast should find the last name of "Axe"
+//findLast should find the last name of "Axe" fsdg
 
 //reverse should return an array with the elements in the opposite order
 //["Axe","Saul","Robin","Lilly","Barney","Ted","Bob","Jon"]
 //tail should return all elements in an array except the first one
 //[Bob","Ted","Barney","Lilly","Robin","Saul","Axe"];
-
-
