@@ -11,7 +11,7 @@ function findThree(name){
 function findBarney(name){
   return name === "Barney";
 }
-//head  should find the first element in the array "Jon"
+//head   should find the first element in the array "Jon"
 describe("head", () => {
   it("should return the first element of an array 'Jon'", () => {
     expect(head(names)).toEqual("Jon");
